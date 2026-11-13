@@ -1,3 +1,3 @@
 class Bow:
-    def attack(self):
+    def attack(self) -> str:
         return "Атака из лука"

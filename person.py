@@ -8,8 +8,8 @@ class Person:
         self.bow = Bow()
         self.sword = Sword()
 
-    def sword_attack(self):
+    def sword_attack(self) -> None:
         print(self.sword.attack())
 
-    def bow_attack(self):
+    def bow_attack(self) -> None:
         print(self.bow.attack())
